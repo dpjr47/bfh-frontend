@@ -51,6 +51,7 @@ html {
 	font-family: 'Flash Back - Demo', sans-serif;
 	font-size: 3rem;
 	color: white;
+	text-decoration: none;
 }
 .nav-bar .nav-list {
 	display: flex;
@@ -172,8 +173,29 @@ html {
 	color: whitesmoke;
 	letter-spacing: 5px;
 	
-	
 }
+
+.hero .hero-info .hero-info-button {
+	margin-top: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: inline-block;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	color: white;
+	margin-left: 100px ;
+	text-decoration: none;
+	letter-spacing: 1rem;
+	background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #f64f59); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-radius: 25px;
+	font-weight: 400;
+	font-family: myfont2;
+}
+
+
 
 .hero .hero-img {
 	height: auto;
@@ -562,6 +584,9 @@ html {
 		min-width: 400px;
 		max-width: 1000px;
 	}
+
+	
+
 	.about {
 		width: 80%;
 		margin: 0 auto;
@@ -588,6 +613,7 @@ html {
 	.hero .hero-info .hero-info-heading {
 		font-size: 6rem;
 	}
+
 	.hero .hero-info .hero-info-subheading {
 		letter-spacing: .8rem;
 	}
